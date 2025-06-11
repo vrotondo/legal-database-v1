@@ -1,0 +1,63 @@
+# Core Flask Framework
+Flask==2.3.3
+Flask-SQLAlchemy==3.0.5
+Flask-Migrate==4.0.5
+Flask-CORS==4.0.0
+Flask-RESTful==0.3.10
+
+# Database & ORM
+SQLAlchemy==2.0.21
+psycopg2-binary==2.9.7  # PostgreSQL adapter
+alembic==1.12.0
+
+# Authentication & Security
+Flask-JWT-Extended==4.5.3
+bcrypt==4.0.1
+cryptography==41.0.4
+PyJWT==2.8.0
+
+# Google AI Integration
+google-generativeai==0.3.0
+google-cloud-aiplatform==1.36.1
+google-auth==2.23.0
+google-auth-oauthlib==1.0.0
+
+# File Handling & Storage
+boto3==1.28.57  # AWS S3 (optional)
+google-cloud-storage==2.10.0  # Google Cloud Storage (alternative)
+Pillow==10.0.0  # Image processing
+python-magic==0.4.27  # File type detection
+PyPDF2==3.0.1  # PDF processing
+
+# Background Tasks & Caching
+celery==5.3.2
+redis==5.0.0
+flower==2.0.1  # Celery monitoring
+
+# Email & Communications
+Flask-Mail==0.9.1
+sendgrid==6.10.0
+
+# Data Processing & Validation
+marshmallow==3.20.1
+marshmallow-sqlalchemy==0.29.0
+WTForms==3.0.1
+Flask-WTF==1.1.1
+pandas==2.1.1  # Data analysis
+numpy==1.25.2
+
+# Testing
+pytest==7.4.2
+pytest-flask==1.2.0
+pytest-cov==4.1.0
+factory-boy==3.3.0
+faker==19.6.2
+
+# Development Tools
+python-dotenv==1.0.0
+flask-shell-ipython==1.4.0
+black==23.7.0  # Code formatting
+flake8==6.1.0  # Linting
+
+# Production Server
+gunicorn==21.2.0
